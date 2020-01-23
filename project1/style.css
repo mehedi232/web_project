@@ -1,0 +1,181 @@
+
+body{
+	background-color: #333;
+	color: #fff;
+  font-size: 1.3rem;
+
+}
+
+#navigation {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+#navigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#navigation a:hover {
+  background-color: black;
+  color: #000;
+}
+
+
+.navbar{
+	border-bottom: 3px solid #008ed6;
+	
+	background: #292b2c;
+	opacity: 0.9;
+}
+.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+#home-section{
+	background: url('h.jpg') no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.dark-overlay{
+		background: rgba(0,0,0,0.7);
+}
+.fa{
+	background-color: #3d87ff;
+	padding: .3rem;
+	font-size: 1rem;
+	border-radius: .3rem;
+}
+.home-inner{
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+#who {
+    display: flex;
+    padding-top: 3px;
+    height: 443px;
+}
+
+#who div {
+  flex: 1;
+}
+.col-md-12 {
+    
+    color: #656e67;
+        padding-top: 22px;
+}	
+.head{
+  padding-left: 50%;
+}
+.bg-light {
+    
+    background-color: #f8f9fa!important;
+}
+#about {
+    height: auto;
+}
+.rounded {
+    border-radius: 2.25rem!important;
+}
+
+#Explore{
+	background-color: #f8f9fa;
+}
+.container{
+	color: black;
+}
+.text-center {
+    text-align: center!important;
+    color: white;
+}
+.d-flex{
+	color: white;
+}
+/*
+.nav-link:hover {
+  background: #0acaff;
+  border-radius: .2rem;
+}*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-size: 17.7px;
+}
+
+/*css w3 school */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 1.3rem;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media(max-width: 768px){
+	#home-section h1{
+		font-size: 2rem;
+	}
+}
